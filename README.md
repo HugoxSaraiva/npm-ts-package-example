@@ -37,11 +37,21 @@ This will compile the TypeScript code to JavaScript and output it in the out fol
 
 ### Developing
 
-To develop a package without publishing it to NPM, you can run the following command to compile the package in watch mode:
+To develop a package without publishing it to NPM, you need to link the package with NPM first, by running the following code:
+
+    npm link
+
+Then you can run the following command to compile the package in watch mode:
 
     npm run watch
 
-Then, you can go to your project that depends on this package and test it.
+Proceed to your project that depends on this package, and run the following code:
+
+    npm run link <your-package-name>
+
+You should be able to import your package as usual. Any changes on the package's src folder will update the dependency in your other project.
+
+If you want to automatically restart your project that depends on the package you are developing, you can use the example at [examples/package-consumer](/examples/package-consumer/README.md).
 
 ### Testing
 

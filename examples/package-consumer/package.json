@@ -1,0 +1,19 @@
+{
+    "name": "package-consumer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "out/index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "start:dev": "concurrently 'npm run watch' 'nodemon --watch node_modules/npm-ts-package-example/out'"
+    },
+    "keywords": [],
+    "author": "Hugo Saraiva do Nascimento",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^8.0.1",
+        "nodemon": "^2.0.22",
+        "typescript": "^5.0.4"
+    }
+}

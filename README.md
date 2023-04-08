@@ -1,5 +1,7 @@
 # TypeScript Package Template
 
+[![codecov](https://codecov.io/gh/HugoxSaraiva/npm-ts-package-example/branch/master/graph/badge.svg?token=99B9MFPYUG)](https://codecov.io/gh/HugoxSaraiva/npm-ts-package-example)
+
 This project serves as a starting template for creating new TypeScript packages.
 
 ## Table of Contents

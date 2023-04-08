@@ -1,3 +1,6 @@
 {
-    "ignoreRoot": [".git"]
+    "ignoreRoot": [
+        ".git",
+        "**/node_modules/{!(npm-ts-package-example),npm-ts-package-example/!(out)}/**/*"
+    ]
 }

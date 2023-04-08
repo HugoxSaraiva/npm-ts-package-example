@@ -6,7 +6,9 @@
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
-        "start:dev": "concurrently 'npm run watch' 'nodemon --watch node_modules/npm-ts-package-example/out'"
+        "start": "node out/index.js",
+        "nodemon": "nodemon",
+        "dev": "concurrently npm:nodemon npm:watch "
     },
     "keywords": [],
     "author": "Hugo Saraiva do Nascimento",

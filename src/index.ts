@@ -1,3 +1,3 @@
-export const HelloWorld = () => {
+export const helloWorld = () => {
     console.log('Hello World')
 }

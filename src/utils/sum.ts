@@ -1,3 +1,3 @@
-export function sum(firstNumber: number, secondNumber: number) {
-    return firstNumber + secondNumber
+export function sum(a: number, b: number) {
+    return a + b
 }

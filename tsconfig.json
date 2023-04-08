@@ -4,10 +4,6 @@
         "lib": ["es2020", "dom"],
         "module": "commonjs",
         "moduleResolution": "node16",
-        "declaration": true,
-        "sourceMap": true,
-        "outDir": "./out",
-        "rootDir": "src",
         "newLine": "lf",
         "isolatedModules": true,
         "esModuleInterop": true,
@@ -23,9 +19,10 @@
         "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@src/*": ["src/*"]
+            "@App*": ["src", "src*"],
+            "@Utils*": ["src/utils", "src/utils*"]
         }
     },
-    "include": ["src"],
+    "include": ["src", "tests"],
     "exclude": ["**/node_modules", "**/.*/"]
 }

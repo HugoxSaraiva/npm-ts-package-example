@@ -1,0 +1,32 @@
+{
+    "name": "npm-ts-package-example",
+    "version": "0.0.1",
+    "description": "An example TypeScript package to serve as headstart for developing other packages.",
+    "main": "./out/index.js",
+    "types": "./out/index.d.ts",
+    "files": [
+        "out"
+    ],
+    "scripts": {
+        "test": "jest",
+        "build": "tsc -p tsconfig.build.json",
+        "watch": "tsc -p tsconfig.build.json -w",
+        "lint": "eslint . --ext .ts",
+        "fix": "eslint . --ext .ts --fix",
+        "prettify": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "Hugo Saraiva do Nascimento",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.57.1",
+        "@typescript-eslint/parser": "^5.57.1",
+        "eslint": "^8.38.0",
+        "eslint-config-prettier": "^8.8.0",
+        "jest": "^29.5.0",
+        "prettier": "^2.8.7",
+        "ts-jest": "^29.1.0",
+        "typescript": "^5.0.4"
+    }
+}

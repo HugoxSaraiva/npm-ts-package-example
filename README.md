@@ -15,7 +15,7 @@ This project serves as a starting template for creating new TypeScript packages.
 
 ## About
 
-TypeScript Package Template provides a basic structure for creating new TypeScript packages. It includes a src folder where you can write your TypeScript code, and a test folder for unit tests running jest. The project also includes configuration files for TypeScript, Jest, and ESLint to help you write high-quality code.
+TypeScript Package Template provides a basic structure for creating new TypeScript packages. It includes a src folder where you can write your TypeScript code, and a test folder for unit tests running jest. The project also includes configuration files for TypeScript, Jest, ESLint, and Codecov to help you write high-quality code.
 
 ## Getting Started
 

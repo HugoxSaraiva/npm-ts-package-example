@@ -2,10 +2,13 @@ name: Code Coverage
 
 on: [push, pull_request]
 
+runs:
+  using: 'node16'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     strategy:
       matrix:
         node-version: [14.x, 16.x]

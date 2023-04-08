@@ -1,6 +1,6 @@
 {
     "name": "npm-ts-package-example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "An example TypeScript package to serve as headstart for developing other packages.",
     "main": "./out/index.js",
     "types": "./out/index.d.ts",
@@ -10,6 +10,10 @@
     "exports": {
         ".": "./out/index.js",
         "./utils": "./out/utils/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HugoxSaraiva/npm-ts-package-example.git"
     },
     "scripts": {
         "test": "jest -o",
